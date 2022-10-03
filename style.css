@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #4D4A4E;
+    color: white;
+}
+
+nav{
+    background-color: black ;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 1em;
+}
+#accueil{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
