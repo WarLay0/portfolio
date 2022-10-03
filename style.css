@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,10 +8,13 @@
 body{
     background-color: #4D4A4E;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 
 nav{
-    background-color: black ;
+    background-color: #710D82 ;
+    width: 100vw;
+    position: fixed;
 }
 nav ul{
     display: flex;
@@ -19,7 +23,13 @@ nav ul{
 nav ul li a{
     display: block;
     padding: 1em;
+    text-decoration: none;
+    color: white;
 }
+nav ul li a:hover{
+    background-color: #36CCCC;    
+}
+
 #accueil{
     height: 100vh;
     display: flex;
