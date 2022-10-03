@@ -10,6 +10,7 @@ body{
     color: white;
     font-family: 'Lato', sans-serif;
 }
+/* Initialisation */
 
 nav{
     background-color: #710D82 ;
@@ -29,9 +30,19 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #36CCCC;    
 }
+/* Barre de navigation */
 
 #accueil{
     height: 100vh;
     display: flex;
     align-items: center;
+}
+/* Accueil */
+
+#pre_under{
+    display: flex;
+}
+#presentation img{
+    width: 150px;
+    height: auto;
 }
