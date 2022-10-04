@@ -68,3 +68,21 @@ nav ul li a:hover{
 #contact{
     display: flex;
 }
+.con_social{
+    display: flex;
+    margin: 4em;
+    align-items: center;
+}
+.con_social img{
+    margin-right: 4em;
+}
+.con_form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 50vw;
+}
+#con_social_id{
+    width: 50vw;
+}

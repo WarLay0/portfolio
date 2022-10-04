@@ -45,30 +45,30 @@
         </section>
         <!-- Projets -->
         <section id="contact">
-        <div>
-                <div>
+        <div id="con_social_id">
+                <div class="con_social">
                     <img src="img/logos/telephone.png" alt="Logo Téléphone">
                     <p>06.84.31.06.94</p>
                 </div>
-                <div>
+                <div class="con_social">
                     <img src="img/logos/adresse.png" alt="Logo ping">
                     <p>6 All. Guy Deniélou, 10430 Rosières-prés-Troyes</p>
                 </div>
-                <div>
+                <div class="con_social">
                     <img src="img/logos/LinkedIn.png" alt="Logo LinkedIn">
                     <p>Evan BOMBART</p>
                 </div>
             </div>
             <form action="#" method="POST">
-                <div>
+                <div class="con_form">
                     <label for="prenom">Prénom</label>
                     <input type="text" id="prenom">
                 </div>
-                <div>
+                <div class="con_form">
                     <label for="nom">Nom</label>
                     <input type="text" id="nom">
                 </div>
-                <div>
+                <div class="con_form">
                     <label for="email">Adresse mail</label>
                     <input type="mail" id="email">
                 </div>
