@@ -62,5 +62,9 @@ nav ul li a:hover{
 #pre_button a button{
     padding: 1em;
     cursor: pointer;
+}
+/* Presentation */
 
+#contact{
+    display: flex;
 }

@@ -45,6 +45,20 @@
         </section>
         <!-- Projets -->
         <section id="contact">
+        <div>
+                <div>
+                    <img src="img/logos/telephone.png" alt="Logo Téléphone">
+                    <p>06.84.31.06.94</p>
+                </div>
+                <div>
+                    <img src="img/logos/adresse.png" alt="Logo ping">
+                    <p>6 All. Guy Deniélou, 10430 Rosières-prés-Troyes</p>
+                </div>
+                <div>
+                    <img src="img/logos/LinkedIn.png" alt="Logo LinkedIn">
+                    <p>Evan BOMBART</p>
+                </div>
+            </div>
             <form action="#" method="POST">
                 <div>
                     <label for="prenom">Prénom</label>
@@ -60,20 +74,6 @@
                 </div>
                 <input type="submit">
             </form>
-            <div>
-                <div>
-                    <img src="img/logos/telephone.png" alt="Logo Téléphone">
-                    <p>06.84.31.06.94</p>
-                </div>
-                <div>
-                    <img src="img/logos/adresse.png" alt="Logo ping">
-                    <p>6 All. Guy Deniélou, 10430 Rosières-prés-Troyes</p>
-                </div>
-                <div>
-                    <img src="img/logos/LinkedIn.png" alt="Logo LinkedIn">
-                    <p>Evan BOMBART</p>
-                </div>
-            </div>
         </section>
     </main>
     <footer>
