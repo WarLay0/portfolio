@@ -50,7 +50,17 @@ nav ul li a:hover{
     width: 50vw;
 }
 #presentation img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
+}
+#pre_button{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#pre_button a button{
+    padding: 1em;
+    cursor: pointer;
+
 }

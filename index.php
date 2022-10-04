@@ -35,7 +35,9 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.</p>
                 </div>
             </div>
-            <a href="#"><button>Curiculum Vitae</button></a>
+            <div id="pre_button">
+                <a href="#"><button>Curiculum Vitae</button></a>
+            </div>
         </section>    
         <!-- Présentation -->
         <section id="projets">
