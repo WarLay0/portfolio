@@ -30,7 +30,7 @@
         <section id="presentation">
             <div id="pre_under">
                 <img src="img/evanPhoto.png" alt="Photo Evan">
-                <div>
+                <div id="pre_text">
                     <h2>Présentation</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.</p>
                 </div>
