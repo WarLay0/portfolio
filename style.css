@@ -39,6 +39,9 @@ nav ul li a:hover{
 }
 /* Accueil */
 
+#presentation{
+    height: 75vh;
+}
 #pre_under{
     display: flex;
 }
