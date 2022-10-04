@@ -8,67 +8,74 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#">Présentation</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <!-- Barre de navigation -->
-    <section id="accueil">
-        <div>
-            <h1>Evan BOMBART</h1>
-            <h2>Développeur full stack junior</h2>
-        </div>
-    </section>
-    <!-- Accueil -->
-    <section id="presentation">
-        <div id="pre_under">
-            <img src="img/evanPhoto.png" alt="Photo Evan">
+    <main>
+        <section id="accueil">
             <div>
-                <h2>Présentation</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.</p>
+                <h1>Evan BOMBART</h1>
+                <h2>Développeur full stack junior</h2>
             </div>
-        </div>
-        <a href="#"><button>Curiculum Vitae</button></a>
-    </section>    
-    <!-- Présentation -->
-    <section id="projets">
-        <!-- A faire : Caroussel -->
-    </section>
-    <!-- Projets -->
-    <section id="contact">
-        <form action="#" method="POST">
+        </section>
+        <!-- Accueil -->
+        <section id="presentation">
+            <div id="pre_under">
+                <img src="img/evanPhoto.png" alt="Photo Evan">
+                <div>
+                    <h2>Présentation</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nobis vel molestiae facilis! Eos ullam suscipit quam velit quibusdam esse, aliquam dicta commodi, ratione tenetur, maxime provident nam inventore officiis.</p>
+                </div>
+            </div>
+            <a href="#"><button>Curiculum Vitae</button></a>
+        </section>    
+        <!-- Présentation -->
+        <section id="projets">
+            <!-- A faire : Caroussel -->
+        </section>
+        <!-- Projets -->
+        <section id="contact">
+            <form action="#" method="POST">
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom">
+                </div>
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom">
+                </div>
+                <div>
+                    <label for="email">Adresse mail</label>
+                    <input type="mail" id="email">
+                </div>
+                <input type="submit">
+            </form>
             <div>
-                <label for="prenom">Prénom</label>
-                <input type="text" id="prenom">
+                <div>
+                    <img src="img/logos/telephone.png" alt="Logo Téléphone">
+                    <p>06.84.31.06.94</p>
+                </div>
+                <div>
+                    <img src="img/logos/adresse.png" alt="Logo ping">
+                    <p>6 All. Guy Deniélou, 10430 Rosières-prés-Troyes</p>
+                </div>
+                <div>
+                    <img src="img/logos/LinkedIn.png" alt="Logo LinkedIn">
+                    <p>Evan BOMBART</p>
+                </div>
             </div>
-            <div>
-                <label for="nom">Nom</label>
-                <input type="text" id="nom">
-            </div>
-            <div>
-                <label for="email">Adresse mail</label>
-                <input type="mail" id="email">
-            </div>
-            <input type="submit">
-        </form>
-        <div>
-            <div>
-                <img src="img/logos/telephone.png" alt="Logo Téléphone">
-                <p>06.84.31.06.94</p>
-            </div>
-            <div>
-                <img src="img/logos/adresse.png" alt="Logo ping">
-                <p>6 All. Guy Deniélou, 10430 Rosières-prés-Troyes</p>
-            </div>
-            <div>
-                <img src="img/logos/LinkedIn.png" alt="Logo LinkedIn">
-                <p>Evan BOMBART</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
+    <footer>
+        <p>Portfolio - Evan BOMBART &copy;2022</p>
+    </footer>
 </body>
 </html>
