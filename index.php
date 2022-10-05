@@ -60,19 +60,25 @@
                 </div>
             </div>
             <form action="#" method="POST">
-                <div class="con_form">
-                    <label for="prenom">Prénom</label>
-                    <input type="text" id="prenom">
-                </div>
-                <div class="con_form">
-                    <label for="nom">Nom</label>
-                    <input type="text" id="nom">
+                <div id="con_line">
+                    <div class="con_form">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom">
+                    </div>
+                    <div class="con_form">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom">
+                    </div>
                 </div>
                 <div class="con_form">
                     <label for="email">Adresse mail</label>
                     <input type="mail" id="email">
                 </div>
-                <input type="submit">
+                <div class="con_form">
+                    <label for="text">Message</label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" id="submit">
             </form>
         </section>
     </main>
