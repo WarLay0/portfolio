@@ -83,7 +83,7 @@ nav ul li a:hover{
 
 #projets{
     height: 75vh;
-    background-color: #4D4A4E;
+    /* background-color: #4D4A4E; */
 }
 /* Projets */
 
@@ -95,6 +95,9 @@ nav ul li a:hover{
     display: flex;
     margin: 4em;
     align-items: center;
+}
+#con_social_id a{
+    text-decoration: none;
 }
 .con_social img{
     margin-right: 4em;
