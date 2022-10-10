@@ -11,6 +11,12 @@ body{
     background-image: url(img/layers/header.png);
     overflow-x: hidden;
 }
+section{
+    margin: 0 4em 1em 1em;
+}
+#accueil{
+    margin-left: 2em;
+}
 /* Initialisation */
 
 body::-webkit-scrollbar {
@@ -52,6 +58,13 @@ nav ul li a:hover{
     height: 100vh;
     display: flex;
     align-items: center;
+}
+#accueil h1{
+    font-size: 8em;
+    letter-spacing: 0.1em;
+}
+#accueil h2{
+    letter-spacing: 0.2em;
 }
 /* Accueil */
 
