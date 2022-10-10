@@ -13,6 +13,17 @@ body{
 }
 /* Initialisation */
 
+body::-webkit-scrollbar {
+    width: 7px;
+}
+body::-webkit-scrollbar-track {
+    background: grey; 
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #710D82;
+}
+/* Scrollbar */
+
 nav{
     background-color: #710D82 ;
     width: 100vw;
