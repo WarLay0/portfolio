@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div id="pre_button">
-                <a href="#"><button>Curiculum Vitae</button></a>
+                <a href="files\CV - BOMBART EVAN T.pdf" download><button>Curiculum Vitae</button></a>
             </div>
         </section>    
         <!-- Présentation -->
