@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 section{
-    margin: 0 4em 1em 1em;
+    padding: 0 4em 1em 1em;
 }
 #accueil{
     margin-left: 2em;
@@ -95,12 +95,14 @@ nav ul li a:hover{
 /* Presentation */
 
 #projets{
+    background-color: black;
     height: 75vh;
     /* background-color: #4D4A4E; */
 }
 /* Projets */
 
 #contact{
+    background-color: black;
     display: flex;
     align-items: center;
 }
