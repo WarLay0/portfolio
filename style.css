@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #4D4A4E;
     color: white;
@@ -34,6 +37,7 @@ nav{
     background-color: #710D82 ;
     width: 100vw;
     position: fixed;
+    z-index: 10;
 }
 nav ul{
     display: flex;
@@ -78,9 +82,17 @@ nav ul li a:hover{
 #pre_text{
     width: 50vw;
 }
+#pre_text h2{
+    padding-bottom: 1.5em;
+    font-size: 2.5em;
+}
+#pre_text p{
+    padding-bottom: 3em;
+    font-size: 1.3em;
+}
 #presentation img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 100%;
 }
 #pre_button{
@@ -113,6 +125,7 @@ nav ul li a:hover{
 }
 #con_social_id a{
     text-decoration: none;
+    color: white;
 }
 .con_social img{
     margin-right: 4em;
@@ -145,3 +158,14 @@ form input, form textarea{
     cursor: pointer;
 }
 /* Contact */
+
+.reveal{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.reveal-visible{
+    opacity: 1;
+    transform: translate(0);
+    transition: 1s;
+}
+/* Animation */

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evan BOMBART - PortFolio en ligne</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
     <header>
@@ -20,14 +22,14 @@
     </header>
     <!-- Barre de navigation -->
     <main>
-        <section id="accueil">
+        <section class="reveal" id="accueil">
             <div>
                 <h1>Evan BOMBART</h1>
                 <h2>Développeur full stack junior</h2>
             </div>
-        </section>
+        </section class="reveal">
         <!-- Accueil -->
-        <section id="presentation">
+        <section class="reveal" id="presentation">
             <div id="pre_under">
                 <img src="img/evanPhoto.png" alt="Photo Evan">
                 <div id="pre_text">
@@ -40,13 +42,13 @@
             <div id="pre_button">
                 <a href="files\CV - BOMBART EVAN T.pdf" download><button>Curiculum Vitae</button></a>
             </div>
-        </section>    
+        </section class="reveal">    
         <!-- Présentation -->
-        <section id="projets">
+        <section class="reveal" id="projets">
             <!-- A faire : Caroussel -->
-        </section>
+        </section class="reveal">
         <!-- Projets -->
-        <section id="contact">
+        <section class="reveal" id="contact">
         <div id="con_social_id">
             <a href="tel:+33684310694">
                 <div class="con_social">
@@ -88,7 +90,7 @@
                 </div>
                 <input type="submit" id="submit">
             </form>
-        </section>
+        </section class="reveal">
     </main>
     <footer>
         <p>Portfolio - Evan BOMBART &copy;2022</p>
