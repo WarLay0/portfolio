@@ -50,19 +50,19 @@
         <!-- Projets -->
         <section class="reveal" id="contact">
         <div id="con_social_id">
-            <a href="tel:+33684310694">
+            <a href="tel:+33684310694" class="con_social_link">
                 <div class="con_social">
                     <img src="img/logos/telephone.png" alt="Logo Téléphone">
                     <p>06.84.31.06.94</p>
                 </div>
             </a>
-            <a href="https://goo.gl/maps/A5pph4m6xnrnN3bV9" target="_blank">
+            <a href="https://goo.gl/maps/A5pph4m6xnrnN3bV9" target="_blank" class="con_social_link">
                 <div class="con_social">
                     <img src="img/logos/adresse.png" alt="Logo ping">
                     <p>6 All. Guy Deniélou, 10430 Rosières-prés-Troyes</p>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/evan-bombart/" target="_blank">
+            <a href="https://www.linkedin.com/in/evan-bombart/" target="_blank" class="con_social_link">
                 <div class="con_social">
                     <img src="img/logos/LinkedIn.png" alt="Logo LinkedIn">
                     <p>Evan BOMBART</p>

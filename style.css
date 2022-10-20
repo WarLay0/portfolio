@@ -72,9 +72,6 @@ nav ul li a:hover{
 }
 /* Accueil */
 
-#presentation{
-    height: 75vh;
-}
 #pre_under{
     display: flex;
     justify-content: space-evenly;
@@ -108,7 +105,6 @@ nav ul li a:hover{
 
 #projets{
     background-color: black;
-    height: 75vh;
     /* background-color: #4D4A4E; */
 }
 /* Projets */
@@ -140,6 +136,11 @@ form{
 #con_social_id{
     width: 50vw;
 }
+.con_social_link :hover{
+    background-color: #4D4A4E;
+    transition: 1s;
+    border-radius: 20px;
+}
 #con_line input{
     width: 22vw;
 }
@@ -169,3 +170,45 @@ form input, form textarea{
     transition: 1s;
 }
 /* Animation */
+
+
+@media all and (max-width : 915px){
+    nav{
+        display: none;
+    }
+    /* Navigation */
+
+    #accueil h1{
+        font-size: 3em;
+        letter-spacing: 0.1em;
+    }
+    /* Accueil */
+
+    #presentation img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    #pre_under{
+        display: flex;
+        flex-direction: column;
+    }
+    #pre_text h2{
+        padding-bottom: 1.5em;
+        font-size: 2em;
+    }
+    #pre_text p{
+        padding-bottom: 3em;
+        font-size: 1em;
+    }
+    /* Présentation */
+
+    #contact{
+        background-color: black;
+        display: block;
+        align-items: center;
+    }
+    form{
+        width: 100%;
+    }
+}
