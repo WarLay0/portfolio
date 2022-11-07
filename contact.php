@@ -1,4 +1,4 @@
-    <form action="transfert.php" method="POST">
+            <form action="transfert.php" method="POST">
                 <div id="con_line">
                     <div class="con_form">
                         <label for="prenom">Prénom</label>

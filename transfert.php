@@ -1,7 +1,9 @@
 <?php
 
+$_SESSION['erreur'] = FALSE;
+$_SESSION['errid'] = array();
 if(count($_POST)==0){
-    header('Location: index.php/#contact');
+    header('Location: /#contact');
 }
 
 // Vérifications :
@@ -9,23 +11,41 @@ if(count($_POST)==0){
     if (!empty($_POST['prenom'])) {
         $prenom = $_POST['prenom'];
     }else{
-        echo '<script>alert("Le prénom n\'est pas renseigné")</script>';
+        echo 'Le prénom n\'est pas renseigné';
+        $_SESSION['erreur'] = TRUE;
+        array_push($_SESSION['errid'],'prenom');
     }
 
     if (!empty($_POST['nom'])) {
         $prenom = $_POST['nom'];
     }else{
-        echo '<script>alert("Le nom n\'est pas renseigné")</script>';
+        echo 'Le nom n\'est pas renseigné';
+        $_SESSION['erreur'] = TRUE;
+        array_push($_SESSION['errid'],'nom');
     }
 
     if (!empty($_POST['email'])) {
         $prenom = $_POST['email'];
     }else{
-        echo '<script>alert("L\'email n\'est pas renseigné")</script>';
+        echo 'L\'email n\'est pas renseigné';
+        $_SESSION['erreur'] = TRUE;
+        array_push($_SESSION['errid'],'email');
     }
 
     if (!empty($_POST['text'])) {
         $prenom = $_POST['text'];
     }else{
-        echo '<script>alert("Le texte n\'est pas renseigné")</script>';
+        echo 'Le texte n\'est pas renseigné';
+        $_SESSION['erreur'] = TRUE;
+        array_push($_SESSION['errid'],'text');
     }
+
+if ($_SESSION['erreur'] == TRUE) {
+    foreach ($_SESSION['errid'] as $key => $value) {
+        echo '<script>var element = document.getElementById('.$value.');element.innerHTML = <p>Test</p>';
+        echo 'Ajout de l\'erreur  '.$value;
+    }
+}else{
+    echo '<script>alert("C\'est bon")</script>';
+    header('Location: /#contact');
+}
