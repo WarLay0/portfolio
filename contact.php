@@ -1,3 +1,6 @@
+            <?php
+                // Formulaire en HTML
+            ?>
             <form action="transfert.php" method="POST">
                 <div id="con_line">
                     <div class="con_form">
