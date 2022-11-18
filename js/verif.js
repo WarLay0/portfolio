@@ -11,7 +11,6 @@ $(document).ready(function() {
         'email' : $('#email').val(),
         'text' : $('#text').val(),
     };
-    console.log(postData);
     $.ajax(
         {
             dataType: 'json',
@@ -19,9 +18,8 @@ $(document).ready(function() {
             url: 'transfert.php',
             data: postData,
             success: function (reponse) {
-                console.log(reponse);
                 if(reponse === true){
-                    console.log('True');
+                    alert('Message en bonne forme')
                 }else{
                     $.each(reponse, function(champ, erreur) {
                         $('#'+champ).after('<span class="erreur">'+erreur+'</span>')	

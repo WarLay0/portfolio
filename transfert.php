@@ -1,19 +1,19 @@
 <?php
 
 if (empty($_POST['prenom'])) {
-    $erreur['prenom'] = 'Prénom Vide'; 
+    $erreur['prenom'] = 'Veuillez entrer un prénom.'; 
 }
 
 if (empty($_POST['nom'])) {
-    $erreur['nom'] = 'nom Vide'; 
+    $erreur['nom'] = 'Veuillez entrer un nom.'; 
 }
 
 if (empty($_POST['email'])) {
-    $erreur['email'] = 'email Vide'; 
+    $erreur['email'] = 'Veuillez entrer un email.'; 
 }
 
 if (empty($_POST['text'])) {
-    $erreur['text'] = 'text Vide'; 
+    $erreur['text'] = 'Veuillez entrer un message.'; 
 }
 
 if (empty($erreur)) {

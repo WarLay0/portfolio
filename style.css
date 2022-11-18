@@ -171,6 +171,10 @@ form input, form textarea{
 }
 /* Animation */
 
+.erreur{
+    color: red;
+}
+/* Erreur */
 
 @media all and (max-width : 915px){
     nav{
