@@ -1,5 +1,5 @@
 <?php
-    header('Location: http://mmi21a03.mmi-troyes.fr/');
+    header('Location: http://mmi21a03.mmi-troyes.fr/Portfolio');
 ?>
 <!-- <!DOCTYPE html>
 <html lang="fr">
