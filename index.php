@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+    header('Location: http://mmi21a03.mmi-troyes.fr/');
+?>
+<!-- <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -9,9 +12,9 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script src="main.js"></script>
     <script src="js/verif.js"></script>
-</head>
+</head> -->
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
@@ -20,7 +23,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!-- Barre de navigation -->
     <main>
         <section class="reveal" id="accueil">
